@@ -25,7 +25,7 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1195468879837810768') // make your bot in discord.com/developers and paste the application ID here
-    .setType('STREAMING')
+    .setType('WATCHING')
     .setURL('https://www.youtube.com/watch?v=7MA7oPf7owo') //Must be a youtube video link 
     .setState('Welcome, my brother!')
     .setName('PP09 & PetyaDecryptor')
