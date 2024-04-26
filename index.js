@@ -25,7 +25,7 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1195468879837810768') // make your bot in discord.com/developers and paste the application ID here
-    .setType('WATCHING')
+    .setType('STREAMING')
     .setURL('https://roblox.com/') //Must be a youtube video link 
     .setState('LIFE IS ROBLOX!')
     .setName('IFE IS ROBLOX!')
