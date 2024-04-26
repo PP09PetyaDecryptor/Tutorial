@@ -39,13 +39,13 @@ client.on('ready', async () => {
     .addButton('JOIN THE BEST FANPAGE ROBLOX DISCORD SERVER!', 'https://dsc.gg/roblox-i-gadanie-pl/');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Join Our POLISH Community!`; //[${newTime}] set this for time 
+      const newDetails = `LIFE IS ROBLOX!`; //[${newTime}] set this for time 
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
