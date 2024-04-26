@@ -36,7 +36,9 @@ client.on('ready', async () => {
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1230237868707020982/1233486408132591626/image.png?ex=662d453c&is=662bf3bc&hm=0c17ca9e03aa46faa03009012c9ed37e37bb25356ff9e2afcf14607eb7b3a8c4&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('LIFE IS ROBLOX') //Text when you hover the Small image
     .addButton('LIFE IS ROBLOX!', 'https://roblox.com/')
-    .addButton('JOIN ROBOX', 'https://dsc.gg/roblox-i-gadanie-pl/');
+    .addButton('JOIN ROBOX', 'https://dsc.gg/roblox-i-gadanie-pl/')
+    .addButton('GDL', 'https://youtube.com/@GeometryDashLivestreaming_')
+    .addButton('Milan Debil', 'https://youtube.com/@MilanDebil');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
