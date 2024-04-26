@@ -34,7 +34,7 @@ client.on('ready', async () => {
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1230213257994702951/1230562104696770704/mega_gif.gif?ex=6633c544&is=66215044&hm=467f03f582502ca1016b29677c0b805090ec51770e19e78fa833d33e31aee88b&') //You can put links in tenor or discord and etc. 
     .setAssetsLargeText('Please anime') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/avatars/1175367719374290954/3d3a83043026c9a4ff1456ed6d3ba3eb.png?size=1024') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('DM me') //Text when you hover the Small image
+    .setAssetsSmallText('Soon making music bots') //Text when you hover the Small image
     .addButton('JOIN SERVER!', 'https://dsc.gg/roblox-i-gadanie-pl/')
     .addButton('SUBSCRIBE US!', 'https://youtube.com/@GeometryDashLivestreaming_/');
 
