@@ -25,10 +25,10 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1195468879837810768') // make your bot in discord.com/developers and paste the application ID here
-    .setType('PLAYING')
+    .setType('WATCHING')
     .setURL('https://roblox.com/') //Must be a youtube video link 
     .setState('LIFE IS ROBLOX!')
-    .setName('Roblox')
+    .setName('IFE IS ROBLOX!')
     .setDetails(`Click on Watch to watch 22twice - Fly High subtitles!`) //[${formatTime()}] and this for showing time of stream.
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1231627991952396419/1233478432608747550/life_is_roblox.jpg?ex=662d3dcf&is=662bec4f&hm=f35ad93b8249e9bd8eb6ce6b1677c6e4327dd9a9ca2a91c829bd5f69f26b229f&') //You can put links in tenor or discord and etc. 
