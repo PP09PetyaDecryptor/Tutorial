@@ -25,10 +25,10 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1195468879837810768') // make your bot in discord.com/developers and paste the application ID here
-    .setType('WATCHING')
+    .setType('COMPETING')
     .setURL('https://www.youtube.com/watch?v=7MA7oPf7owo') //Must be a youtube video link 
     .setState('Welcome, my brother!')
-    .setName('PP09 & PetyaDecryptor')
+    .setName('Roblox')
     .setDetails(`Click on Watch to watch 22twice - Fly High subtitles!`) //[${formatTime()}] and this for showing time of stream.
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1230213257994702951/1230562104696770704/mega_gif.gif?ex=6633c544&is=66215044&hm=467f03f582502ca1016b29677c0b805090ec51770e19e78fa833d33e31aee88b&') //You can put links in tenor or discord and etc. 
