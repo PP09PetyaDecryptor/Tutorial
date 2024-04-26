@@ -25,21 +25,21 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1195468879837810768') // make your bot in discord.com/developers and paste the application ID here
-    .setType('COMPETING')
-    .setURL('https://www.youtube.com/watch?v=7MA7oPf7owo') //Must be a youtube video link 
-    .setState('Welcome, my brother!')
+    .setType('PLAYING')
+    .setURL('https://roblox.com/') //Must be a youtube video link 
+    .setState('LIFE IS ROBLOX!')
     .setName('Roblox')
     .setDetails(`Click on Watch to watch 22twice - Fly High subtitles!`) //[${formatTime()}] and this for showing time of stream.
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1230213257994702951/1230562104696770704/mega_gif.gif?ex=6633c544&is=66215044&hm=467f03f582502ca1016b29677c0b805090ec51770e19e78fa833d33e31aee88b&') //You can put links in tenor or discord and etc. 
-    .setAssetsLargeText('Join POLISH Discord server') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/avatars/1175367719374290954/3d3a83043026c9a4ff1456ed6d3ba3eb.png?size=1024') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Soon making music bots') //Text when you hover the Small image
-    .addButton('JOIN SERVER!', 'https://dsc.gg/roblox-i-gadanie-pl/')
-    .addButton('SUBSCRIBE US!', 'https://youtube.com/@GeometryDashLivestreaming_/');
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1231627991952396419/1233478432608747550/life_is_roblox.jpg?ex=662d3dcf&is=662bec4f&hm=f35ad93b8249e9bd8eb6ce6b1677c6e4327dd9a9ca2a91c829bd5f69f26b229f&') //You can put links in tenor or discord and etc. 
+    .setAssetsLargeText('LIFE IS ROBLOX!') //Text when you hover the Large image
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1231627991952396419/1233478432608747550/life_is_roblox.jpg?ex=662d3dcf&is=662bec4f&hm=f35ad93b8249e9bd8eb6ce6b1677c6e4327dd9a9ca2a91c829bd5f69f26b229f&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('LIFE IS ROBLOX') //Text when you hover the Small image
+    .addButton('LIFE IS ROBLOX!', 'https://roblox.com/')
+    .addButton('JOIN THE BEST FANPAGE ROBLOX DISCORD SERVER!', 'https://dsc.gg/roblox-i-gadanie-pl/');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
