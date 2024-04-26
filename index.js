@@ -28,7 +28,7 @@ client.on('ready', async () => {
     .setType('PLAYING')
     .setURL('https://www.youtube.com/watch?v=P1Cu7ZE77BI') //Must be a youtube video link 
     .setState('LIFE IS ROBLOX!')
-    .setName('LIFE IS ROBLOX!')
+    .setName('Roblox!')
     .setDetails(`LIFE IS ROBLOX!`) //[${formatTime()}] and this for showing time of stream.
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1231627991952396419/1233478432608747550/life_is_roblox.jpg?ex=662d3dcf&is=662bec4f&hm=f35ad93b8249e9bd8eb6ce6b1677c6e4327dd9a9ca2a91c829bd5f69f26b229f&') //You can put links in tenor or discord and etc. 
