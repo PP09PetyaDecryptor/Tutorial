@@ -8,7 +8,8 @@ server.all(`/`, (req, res) => {
 function keepAlive() {
     server.listen(3000, () => {
         console.log(`24/7 Activation Complete`)
-        console.log(`Logged in`)
+        console.log(`Logged in as ${client.user.tag}.`)
+        console.log(`linktr.ee/GDL___`);
     });
 }
 
