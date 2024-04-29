@@ -27,7 +27,7 @@ client.on('ready', async () => {
     .setApplicationId('1233519365450895495') // make your bot in discord.com/developers and paste the application ID here
     .setType('PLAYING')
     .setURL('https://www.youtube.com/watch?v=P1Cu7ZE77BI') //Must be a youtube video link 
-    .setState('LIFE IS ROBLOX!')
+    .setState('SUBSKRYBUJ MILAN DEBIL!!')
     .setName('Milan Debil')
     .setDetails(`Subskrybuj Milan Debil!!`) //[${formatTime()}] and this for showing time of stream.
     .setStartTimestamp(Date.now())
