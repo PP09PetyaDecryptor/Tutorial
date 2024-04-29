@@ -33,7 +33,7 @@ client.on('ready', async () => {
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1234460050806804480/1234460603981107231/Roblox_Logo_2022.jpg?ex=6630d087&is=662f7f07&hm=bac54ac6d66eb1831ff2e05f5c19128aba8af85c0107c5339561eec5f58a0690&') //You can put links in tenor or discord and etc. 
     .setAssetsLargeText('Subskrybuj Milan Debil!!') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1234460050806804480/1234461026720809051/Screenshot_20240429_130623.png?ex=6630d0eb&is=662f7f6b&hm=d8e93e5c77d475cdf72e939d2598119082197ed8c56094948579f625d9f62c4e&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://yt3.googleusercontent.com/Rpo_3RUMuKH_oGzbR-PoqXoZCIAxBviYvSP7rlxK32_0IJt9PzJP-15YEC8BcYEIh7PjxGsAPw=s900-c-k-c0x00ffffff-no-rj') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('LIFE IS ROBLOX') //Text when you hover the Small image
     .addButton('Milan Debil', 'https://youtube.com/@MilanDebil')
     .addButton('GDL', 'https://youtube.com/@GeometryDashLivestreaming_/');
